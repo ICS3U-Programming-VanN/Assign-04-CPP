@@ -110,7 +110,7 @@ int main() {
 
             // Checks if totalNumbers is negative or contains decimals
             if (totalNumbers <= 0 || totalNumbers != totalNumbersFloat) {
-                std::cout << "Please enter a positive number for the"
+                std::cout << "Please enter a positive integer for the"
                 << " total numbers!\n" << std::endl;
 
                 // Returns to beginning of loop
@@ -134,7 +134,7 @@ int main() {
 
                     // If the user number is not positive or contains decimals
                     if (userNumber <= 0 || userNumber != userNumberFloat) {
-                        std::cout << "Please enter a positive number!\n"
+                        std::cout << "Please enter a positive integer!\n"
                         << std::endl;
 
                         // Returns to the innermost loop
